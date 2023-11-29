@@ -73,14 +73,14 @@
 		$seo = '	
 		<!-- Basic Header Needs
 		================================================== -->
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<base href="'.get_site_url($echo=false ).'">
 		<title>'.$newSeoTitle.'</title>
 		<meta name="description" content="'.descSeo().'">
 		<meta name="robots" content="index, follow">
 		<meta name="copyright" content="'.get_site_name($echo=false).'">
-		<meta http-equiv="last-modified" content="'.get_page_date('D, j M Y G:i:s', $echo=false).' +0000">
+		<meta http-equiv="last-modified" content="'.get_page_date('D, j M Y G:i:s', $echo=false).' GMT">
 		<link rel="canonical" href="'.get_page_url($echo=true).'">
 		';
 
@@ -127,7 +127,7 @@
 		<meta name="DC.Language" content="'.file_get_contents($dublinfile).'" />
 		<meta name="DC.Title" content="'.get_page_clean_title($echo=false).'" />
 		<meta name="DC.Creator" content="'.get_site_name($echo=false).'"/>
-		<meta name="DC.Date" content="'.get_page_date('D, j M Y G:i:s',$echo=false).' +0000">
+		<meta name="DC.Date" content="'.get_page_date('D, j M Y G:i:s',$echo=false).' GMT">
 		';
 
 		};
