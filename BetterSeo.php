@@ -294,7 +294,10 @@ function betterSEO()
 				display:block;
 				padding:10px;
 				text-align:center;
-				margin-top:20px;
+				margin-top:20px;  
+				background: green !important;
+				color: white !important;
+				border-radius: 10px;
 			}
 			.tab{
 				width:100%;
